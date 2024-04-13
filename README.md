@@ -1,6 +1,6 @@
 # Techtonic Bootcamp: Intermediate React Session
 
-Welcome to the Techtonic Bootcamp's Intermediate React session repository! This repository contains the tutor and exercise files used in the session. 
+Welcome to the Techtonic Bootcamp's Intermediate React session repository! This repository contains the tutor and exercise files that I used in the session. 
 
 ## Table of Contents
 - [Project Structure](#project-structure)
