@@ -1,70 +1,76 @@
-# Getting Started with Create React App
+# Techtonic Bootcamp: Intermediate React Session
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to the Techtonic Bootcamp's Intermediate React session repository! This repository contains the tutor and exercise files used in the session. 
 
-## Available Scripts
+## Table of Contents
+- [Project Structure](#project-structure)
+- [Setup](#setup)
+- [Exercises](#exercises)
+- [Tutor Files](#tutor-files)
+- [License](#license)
 
-In the project directory, you can run:
+## Project Structure
 
-### `npm start`
+The repository is organized as follows:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- `node_modules`: Contains all the dependencies installed by npm.
+- `package.json`: Project metadata and dependencies.
+- `package-lock.json`: Lockfile for npm dependencies.
+- `public`: Contains the public assets and the `index.html` file.
+- `src`: Contains the source code for the project, including the exercises and tutor files.
+    - `exercises`: Folder with exercise files and CSS files for each exercise.
+        - `1-toggle-message.js` and `1-toggle-message.css`: Files for the first exercise.
+        - `2-counter.js` and `2-counter.css`: Files for the second exercise.
+        - `3-dynamic-list.js` and `3-dynamic-list.css`: Files for the third exercise.
+        - `4-fetch-data.js` and `4-fetch-data.css`: Files for the fourth exercise.
+        - `5-form-validation.js` and `5-form-validation.css`: Files for the fifth exercise.
+    - `tutor`: Folder with tutor files and CSS files for each tutorial.
+        - `1-color-changer.js` and `1-color-changer.css`: Files for the first tutorial.
+        - `2-greeting.js` and `2-greeting.css`: Files for the second tutorial.
+        - `3-fruit-list.js` and `3-fruit-list.css`: Files for the third tutorial.
+        - `4-contact-form.js` and `4-contact-form.css`: Files for the fourth tutorial.
+        - `5-card.js` and `5-card.css`: Files for the fifth tutorial.
+- `App.js`: Main application file.
+- `index.js`: Entry point of the application.
+- `bash.sh`: Bash script file.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Setup
 
-### `npm test`
+To set up the project:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. Clone the repository:
+    ```shell
+    git clone <repository-url>
+    cd intermediate-react-TT-Session
+    ```
 
-### `npm run build`
+2. Install dependencies:
+    ```shell
+    npm install
+    ```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+3. Start the application:
+    ```shell
+    npm start
+    ```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Exercises
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+The exercises are located in the `src/exercises` directory. Each exercise is accompanied by a corresponding CSS file.
 
-### `npm run eject`
+- **Exercise 1**: Toggle Message (`1-toggle-message.js` and `1-toggle-message.css`)
+- **Exercise 2**: Counter (`2-counter.js` and `2-counter.css`)
+- **Exercise 3**: Dynamic List (`3-dynamic-list.js` and `3-dynamic-list.css`)
+- **Exercise 4**: Fetch Data (`4-fetch-data.js` and `4-fetch-data.css`)
+- **Exercise 5**: Form Validation (`5-form-validation.js` and `5-form-validation.css`)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Tutor Files
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+The tutor files are located in the `src/tutor` directory. Each tutorial is accompanied by a corresponding CSS file.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- **Tutorial 1**: Color Changer (`1-color-changer.js` and `1-color-changer.css`)
+- **Tutorial 2**: Greeting (`2-greeting.js` and `2-greeting.css`)
+- **Tutorial 3**: Fruit List (`3-fruit-list.js` and `3-fruit-list.css`)
+- **Tutorial 4**: Contact Form (`4-contact-form.js` and `4-contact-form.css`)
+- **Tutorial 5**: Card (`5-card.js` and `5-card.css`)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

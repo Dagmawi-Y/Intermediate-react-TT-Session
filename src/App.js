@@ -1,23 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
-
+import * as exercises from './exercises/index.js';
+import * as tutor from './tutor/index.js';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <tutor.ColorChanger /> */}
+      {/* <tutor.Greeting /> */}
+      {/* <tutor.FruitList /> */}
+      <tutor.ContactForm />
+      {/* <tutor.Card /> */}
+
+      {/* <exercises.DataFetcher /> */}
+      {/* <exercises.ToggleMessage /> */}
+      {/* <exercises.Counter /> */}
+      {/* <exercises.DynamicList /> */}
+      {/* <exercises.FormValidation /> */}
     </div>
   );
 }

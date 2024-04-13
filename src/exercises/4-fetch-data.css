@@ -1,0 +1,26 @@
+.data-fetcher {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.title {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.post-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.post {
+  font-size: 1.2rem;
+  color: #333;
+  margin-bottom: 0.5rem;
+  padding: 0.5rem;
+  background-color: #f2f2f2;
+  border-radius: 4px;
+}

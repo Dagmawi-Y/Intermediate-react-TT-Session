@@ -1,0 +1,13 @@
+.fruit-list {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 2rem;
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+.fruit-item {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+  color: #2196f3;
+}
